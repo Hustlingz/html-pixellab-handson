@@ -1,0 +1,16 @@
+a {
+  color: red;
+}
+
+p {
+  color: gray;
+}
+
+h3 {
+  text-shadow: 0 3px 5px green;
+}
+
+li {
+  color: purple;
+  text-decoration: underline;
+}
