@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Julius Sans One';
+    src: url('JuliusSansOne-Regular.woff2') format('woff2'),
+        url('JuliusSansOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- DONE -->
+
 <head>
   <meta charset="UTF-8">
   <meta
@@ -19,7 +21,7 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="nav-top">
     <a
       href="#water"
       title="Apa"
@@ -34,17 +36,34 @@
     >Ozon</a>
   </nav>
 
+  <nav class="nav-bottom">
+    <a
+      href="#water"
+      title="Apa"
+    >Apa</a>
+    <a
+      href="#acid"
+      title="Acid"
+    >Acid Sulfuric</a>
+    <a
+      href="#ozone"
+      title="Ozon"
+    >Ozon</a>
+  </nav>
+
+
   <div>
     <div
       class="container"
       id="water"
     >
       <p>
-        Apa este formata din doi atomi de hidrogen
+        <span class="legend">Apa</span> este formata din doi atomi de hidrogen
         si o molecula de oxigen.<br>
-        Formula sa chimica este H2O.
+        Formula sa chimica este H <span class="sub">2</span> O.
       </p>
     </div>
+    <div class="section-title">Apa</div>
 
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -126,12 +145,13 @@
       id="acid"
     >
       <p>
-        Acidul sulfuric cunoscut ca si vitriol, este format din
+        <span class="legend">Acidul sulfuric</span> cunoscut ca si vitriol, este format din
         2 atomi de hidrogen, 4 atomi de oxigen si o
         molecula de sulf<br>
-        Formula sa chimica este H2SO4.
+        Formula sa chimica este H <span class="sub">2</span>SO<span class="sub">4</span>.
       </p>
     </div>
+    <div class="section-title">Ozon</div>
 
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -213,10 +233,12 @@
       id="ozone"
     >
       <p>
-        Ozonul este o molecula formata din 3 atomi de oxigen.<br>
-        Formula sa chimica este: O3.
+        <span class="legend">Ozonul</span> este o molecula formata din 3 atomi de oxigen.<br>
+        Formula sa chimica este: O<span class="sub">3</span> .
       </p>
     </div>
+    <div class="section-title">Ozon</div>
+
 
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's

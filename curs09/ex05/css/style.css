@@ -1,6 +1,6 @@
 .box {
-  width: 25px; 
-  height: 25px; 
+  width: 25px;
+  height: 25px;
   display: inline-block;
 }
 
@@ -22,4 +22,45 @@
 
 .box-yellow {
   background-color: yellow;
+}
+
+.box-green {
+  transition: transform 5s linear;
+}
+
+.box-green:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.box-purple {
+  transition: width 4s ease 1s, height 4s ease 1s;
+}
+
+.box-purple:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.box-red {
+  transition: width 3s linear 1s, height 4s linear 1s;
+}
+.box-red:hover {
+  width: 120px;
+  height: 120px;
+}
+
+.box-brown {
+  transition: transform ease-in 4s;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-yellow {
+  transition: transform ease-in-out 3s;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }

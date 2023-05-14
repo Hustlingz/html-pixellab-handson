@@ -1,1 +1,56 @@
+.my-div {
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border: 1px solid green;
+  margin: 0 auto;
+}
 
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-right: 21px;
+  padding-left: 13px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  border: 3px solid green;
+  padding: 15px;
+}
+
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding: 13px 19px;
+  margin: auto;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding: 10px 15px 0px 20px;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 11px 20px;
+}
+
+.transparent {
+  justify-content: center;
+  width: 300px;
+  border: 2px solid red;
+  padding: 20px;
+  margin: 20px;
+}
